@@ -11,7 +11,9 @@ const Home: React.FC = () => (
     <main>
       <h1 className="title">Merikukkanen</h1>
       <p className="description">Potrettikuvaaja Salla Merikukka</p>
-      <PhotoGrid />
+      <section>
+        <PhotoGrid />
+      </section>
     </main>
 
     <style jsx>{`
