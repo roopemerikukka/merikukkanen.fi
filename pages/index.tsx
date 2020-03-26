@@ -1,47 +1,48 @@
 import Head from 'next/head'
 import PhotoGrid from '../components/PhotoGrid'
+import styled from 'styled-components'
+import Header from '../components/Header'
+
+const Container = styled.div`
+  min-height: 100vh;
+`
+
+const Main = styled.main`
+  padding: 5rem 1rem;
+`
+
+const Section = styled.section`
+  width: 100%;
+  max-width: 1400px;
+  margin: 3rem auto;
+
+  h2 {
+    text-align: center;
+  }
+`
 
 const Home: React.FC = () => (
-  <div className="container">
+  <Container>
     <Head>
       <title>Merikukkanen</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main>
-      <h1 className="title">Merikukkanen</h1>
-      <p className="description">Potrettikuvaaja Salla Merikukka</p>
-      <section>
+    <Main>
+      <Header />
+      <Section>
         <PhotoGrid />
-      </section>
-    </main>
-
-    <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-      }
-
-      main {
-        padding: 5rem 0;
-      }
-
-      .title {
-        margin: 0;
-        line-height: 1.15;
-        font-size: 4rem;
-      }
-
-      .title,
-      .description {
-        text-align: center;
-      }
-
-      .description {
-        line-height: 1.5;
-        font-size: 1.5rem;
-      }
-    `}</style>
+      </Section>
+      <Section>
+        <h2>About</h2>
+      </Section>
+      <Section>
+        <h2>Prices</h2>
+      </Section>
+      <Section>
+        <h2>Contact</h2>
+      </Section>
+    </Main>
 
     <style jsx global>{`
       html,
@@ -56,7 +57,7 @@ const Home: React.FC = () => (
         box-sizing: border-box;
       }
     `}</style>
-  </div>
+  </Container>
 )
 
 export default Home
