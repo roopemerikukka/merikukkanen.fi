@@ -80,6 +80,13 @@ const Home: React.FC = () => (
       * {
         box-sizing: border-box;
       }
+
+      p {
+        max-width: 65ch;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+      }
     `}</style>
   </Container>
 )

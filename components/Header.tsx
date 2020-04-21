@@ -35,7 +35,7 @@ const Container = styled.header`
     text-align: center;
     line-height: 1.5;
     font-weight: 300;
-    margin: 0;
+    margin: 0 auto;
     font-size: 1rem;
 
     @media (min-width: 768px) {

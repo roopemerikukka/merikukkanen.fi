@@ -5,6 +5,7 @@ import SectionTitle from './SectionTitle'
 const PricePackGrid = styled.div`
   display: grid;
   gap: 1rem;
+  margin: 2rem 0;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -72,6 +73,9 @@ const Item = styled.li`
 const Pricing: React.FC = () => (
   <React.Fragment>
       <SectionTitle>Hinnat</SectionTitle>
+
+      <p>Tarvitsetko uusia kuvia LinkedIn-profiiliin, onko vaalikampanja kuvia vailla vai haluatko ikuistaa hetken rakkaimpasi kanssa? Tyylikkäät potretit kuvataan toiveesi mukaan sisä- tai ulkomiljöössä, luonnonvaloa tai kevyttä lisävalaistusta käyttäen. Valitse paketti tarpeesi mukaan:</p>
+
     <PricePackGrid>
 
       {/* Potrettipaketti S */}
@@ -125,6 +129,9 @@ const Pricing: React.FC = () => (
       </PricePack>
 
     </PricePackGrid>
+
+    <p>Hinnat sisältävät ALV:n 24 %.</p>
+    <p>Lisäkuvat pakettien päälle samoista kuvauksista 20 € / kpl. Matkakorvaukset Helsingin ulkopuolelle alkaen 20 €. Siirtymät kuvauslokaatioiden välillä lasketaan mukaan kuvausaikaan. Käsiteltävät kuvat on valittava viikon kuluessa koevedosten toimittamisesta. Valmiit kuvat toimitetaan viikon sisällä koevedosten valitsemisesta. Potrettipaketit M ja L voit jakaa yhden tai kahden kaverin kanssa.</p>
   </React.Fragment>
 )
 
