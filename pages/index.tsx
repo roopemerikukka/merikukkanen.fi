@@ -78,7 +78,8 @@ const Home: React.FC = () => (
       }
 
       p {
-        max-width: 65ch;
+        width: 100%;
+        max-width: 37rem;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;

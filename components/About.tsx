@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Img = styled.img`
   width: 100%;
-  width: 65ch;
+  max-width: 37rem;
   margin: 1rem auto;
   display: block;
 `
