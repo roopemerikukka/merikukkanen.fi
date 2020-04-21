@@ -38,7 +38,7 @@ const HorizontalBig = styled(Horizontal)`
 `
 
 const Vertical = styled(GridItem)`
-  padding-bottom: calc( 133.333% + 20px);
+  padding-bottom: calc( 133.333% + 24px);
   grid-row: span 2;
 `
 
@@ -57,17 +57,23 @@ const Img = styled.img`
 const PhotoGrid: React.FC = () => (
   <Grid>
     {/** 1st Group */}
-    <HorizontalBig><Img src="vaaka.png" /></HorizontalBig>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
-    <Vertical><Img src="pysty.png" /></Vertical>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
+    <HorizontalBig><Img src="images/web11.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web8.jpg" /></Horizontal>
+    <Vertical><Img src="images/web4.jpg" /></Vertical>
+    <Horizontal><Img src="images/web3.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web2.jpg" /></Horizontal>
     {/** 2nd Group */}
-    <Vertical><Img src="pysty.png" /></Vertical>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
-    <HorizontalBig><Img src="vaaka.png" /></HorizontalBig>
-    <Horizontal><Img src="vaaka.png" /></Horizontal>
+    <Vertical><Img src="images/web10.jpg" /></Vertical>
+    <Horizontal><Img src="images/web6.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web9.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web5.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web7.jpg" /></Horizontal>
+    {/** 3rd Group */}
+    <HorizontalBig><Img src="images/web16.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web12.jpg" /></Horizontal>
+    <Vertical><Img src="images/web18.jpg" /></Vertical>
+    <Horizontal><Img src="images/web28.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web21.jpg" /></Horizontal>
   </Grid>
 )
 
