@@ -101,6 +101,7 @@ const Pricing: React.FC = () => (
           <Item>✏️ Halutessasi koevedokset, joista käsiteltävät kuvat valitaan</Item>
           <Item>⭐️ 12 valmista loppukäsiteltyä kuvaa (väri ja mustavalkoinen)</Item>
           <Item>💖 Kuvat toimitetaan sähköisesti Drive-kansiossa</Item>
+          <Item>👯 Voit jakaa yhden tai kahden kaverin kanssa</Item>
         </Details>
       </PricePack>
 
@@ -114,6 +115,7 @@ const Pricing: React.FC = () => (
           <Item>✏️ Halutessasi koevedokset, joista käsiteltävät kuvat valitaan</Item>
           <Item>⭐️ 20 valmista loppukäsiteltyä kuvaa (väri ja mustavalkoinen)</Item>
           <Item>💖 Kuvat toimitetaan sähköisesti Drive-kansiossa</Item>
+          <Item>👯 Voit jakaa yhden tai kahden kaverin kanssa</Item>
         </Details>
       </PricePack>
 
@@ -131,7 +133,7 @@ const Pricing: React.FC = () => (
     </PricePackGrid>
 
     <p>Hinnat sisältävät ALV:n 24 %.</p>
-    <p>Lisäkuvat pakettien päälle samoista kuvauksista 20 € / kpl. Matkakorvaukset Helsingin ulkopuolelle alkaen 20 €. Siirtymät kuvauslokaatioiden välillä lasketaan mukaan kuvausaikaan. Käsiteltävät kuvat on valittava viikon kuluessa koevedosten toimittamisesta. Valmiit kuvat toimitetaan viikon sisällä koevedosten valitsemisesta. Potrettipaketit M ja L voit jakaa yhden tai kahden kaverin kanssa.</p>
+    <p>Lisäkuvat pakettien päälle samoista kuvauksista 20 € / kpl. Matkakorvaukset Helsingin ulkopuolelle alkaen 20 €. Siirtymät kuvauslokaatioiden välillä lasketaan mukaan kuvausaikaan. Käsiteltävät kuvat on valittava viikon kuluessa koevedosten toimittamisesta. Valmiit kuvat toimitetaan viikon sisällä koevedosten valitsemisesta.</p>
   </React.Fragment>
 )
 
