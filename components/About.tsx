@@ -3,7 +3,8 @@ import SectionTitle from './SectionTitle'
 import styled from 'styled-components'
 
 const Img = styled.img`
-  max-width: 65ch;
+  width: 100%;
+  width: 65ch;
   margin: 1rem auto;
   display: block;
 `
