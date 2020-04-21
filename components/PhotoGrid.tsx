@@ -71,7 +71,7 @@ const PhotoGrid: React.FC = () => (
     {/** 3rd Group */}
     <HorizontalBig><Img src="images/web16.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web12.jpg" /></Horizontal>
-    <Vertical><Img src="images/web18.jpg" /></Vertical>
+    <Vertical><Img src="images/web29.jpg" /></Vertical>
     <Horizontal><Img src="images/web28.jpg" /></Horizontal>
     <Horizontal><Img src="images/web21.jpg" /></Horizontal>
   </Grid>

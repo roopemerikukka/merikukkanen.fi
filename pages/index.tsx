@@ -13,7 +13,7 @@ const Container = styled.div`
 
 const Main = styled.main`
   margin: 0;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 2rem 1rem;
 `
 
 const Section = styled.section`
@@ -23,10 +23,6 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     margin: 6rem auto;
-  }
-
-  @media (min-width: 1024px) {
-    margin: 8rem auto;
   }
 `
 
