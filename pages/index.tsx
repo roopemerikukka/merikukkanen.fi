@@ -31,6 +31,8 @@ const Footer = styled.footer`
   background-color: rgba(215, 190, 191, 1);
 `
 
+const GA_CODE = 'UA-100471655-1'
+
 const Home: React.FC = () => (
   <Container>
     <Head>
@@ -45,6 +47,13 @@ const Home: React.FC = () => (
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#d7bebf" />
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_CODE}`}></script>
+      <script dangerouslySetInnerHTML={{__html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GA_CODE}');
+      `}} />
     </Head>
 
     <Main>
