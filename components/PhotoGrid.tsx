@@ -56,24 +56,30 @@ const Img = styled.img`
 
 const PhotoGrid: React.FC = () => (
   <Grid>
-    {/** 1st Group */}
+    {/** 1st Group (A) */}
     <HorizontalBig><Img src="images/web11.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web8.jpg" /></Horizontal>
     <Vertical><Img src="images/web4.jpg" /></Vertical>
     <Horizontal><Img src="images/web3.jpg" /></Horizontal>
     <Horizontal><Img src="images/web2.jpg" /></Horizontal>
-    {/** 2nd Group */}
+    {/** 2nd Group (B) */}
     <Vertical><Img src="images/web10.jpg" /></Vertical>
     <Horizontal><Img src="images/web6.jpg" /></Horizontal>
     <Horizontal><Img src="images/web9.jpg" /></Horizontal>
     <HorizontalBig><Img src="images/web5.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web7.jpg" /></Horizontal>
-    {/** 3rd Group */}
+    {/** 3rd Group (A) */}
     <HorizontalBig><Img src="images/web16.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web12.jpg" /></Horizontal>
     <Vertical><Img src="images/web29.jpg" /></Vertical>
-    <Horizontal><Img src="images/web28.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web30.jpg" /></Horizontal>
     <Horizontal><Img src="images/web21.jpg" /></Horizontal>
+    {/** 4th Group (B) */}
+    <Vertical><Img src="images/web19.jpg" /></Vertical>
+    <Horizontal><Img src="images/web17.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web31.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web28.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web32.jpg" /></Horizontal>
   </Grid>
 )
 
