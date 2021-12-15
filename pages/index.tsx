@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import PhotoGrid from '../components/PhotoGrid'
 import styled from 'styled-components'
-import Header from '../components/Header'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import SectionTitle from '../components/SectionTitle'
+import Header from '../components/Header'
+import PhotoGrid from '../components/PhotoGrid'
 import Pricing from '../components/Pricing'
 
 const Container = styled.div`
