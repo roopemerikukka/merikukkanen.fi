@@ -54,38 +54,72 @@ const Img = styled.img`
   object-fit: cover;
 `
 
+/**
+ * There needs to be even amount of groups for these
+ * to work in all mq sizes.
+ */
 const PhotoGrid: React.FC = () => (
   <Grid>
-    {/** 1st Group (A) */}
-    <HorizontalBig><Img src="images/web11.jpg" /></HorizontalBig>
-    <Horizontal><Img src="images/web8.jpg" /></Horizontal>
-    <Vertical><Img src="images/web4.jpg" /></Vertical>
-    <Horizontal><Img src="images/web3.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web2.jpg" /></Horizontal>
-    {/** 2nd Group (B) */}
-    <Vertical><Img src="images/web10.jpg" /></Vertical>
-    <Horizontal><Img src="images/web6.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web9.jpg" /></Horizontal>
-    <HorizontalBig><Img src="images/web5.jpg" /></HorizontalBig>
-    <Horizontal><Img src="images/web7.jpg" /></Horizontal>
-    {/** 3rd Group (A) */}
-    <HorizontalBig><Img src="images/web16.jpg" /></HorizontalBig>
-    <Horizontal><Img src="images/web12.jpg" /></Horizontal>
-    <Vertical><Img src="images/web29.jpg" /></Vertical>
-    <Horizontal><Img src="images/web30.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web21.jpg" /></Horizontal>
-    {/** 4th Group (B) */}
-    <Vertical><Img src="images/web19.jpg" /></Vertical>
-    <Horizontal><Img src="images/web17.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web31.jpg" /></Horizontal>
-    <HorizontalBig><Img src="images/web28.jpg" /></HorizontalBig>
-    <Horizontal><Img src="images/web32.jpg" /></Horizontal>
-    {/** 5st Group (A) */}
+    {/** Group (A) */}
+    <HorizontalBig><Img src="images/web63.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web64.jpg" /></Horizontal>
+    <Vertical><Img src="images/web67.jpg" /></Vertical>
+    <Horizontal><Img src="images/web65.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web66.jpg" /></Horizontal>
+    {/** Group (B) */}
+    <Vertical><Img src="images/web38.jpg" /></Vertical>
+    <Horizontal><Img src="images/web39.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web40.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web41.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web42.jpg" /></Horizontal>
+    {/** Group (A) */}
+    <HorizontalBig><Img src="images/web45.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web44.jpg" /></Horizontal>
+    <Vertical><Img src="images/web47.jpg" /></Vertical>
+    <Horizontal><Img src="images/web43.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web46.jpg" /></Horizontal>
+    {/** Group (B) */}
+    <Vertical><Img src="images/web48.jpg" /></Vertical>
+    <Horizontal><Img src="images/web49.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web50.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web52.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web51.jpg" /></Horizontal>
+    {/** Group (A) */}
+    <HorizontalBig><Img src="images/web53.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web54.jpg" /></Horizontal>
+    <Vertical><Img src="images/web57.jpg" /></Vertical>
+    <Horizontal><Img src="images/web55.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web56.jpg" /></Horizontal>
+    {/** Group (B) */}
+    <Vertical><Img src="images/web58.jpg" /></Vertical>
+    <Horizontal><Img src="images/web59.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web60.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web62.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web61.jpg" /></Horizontal>
+    {/** Group (A) */}
     <HorizontalBig><Img src="images/web33.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web34.jpg" /></Horizontal>
     <Vertical><Img src="images/web37.jpg" /></Vertical>
     <Horizontal><Img src="images/web35.jpg" /></Horizontal>
     <Horizontal><Img src="images/web36.jpg" /></Horizontal>
+    {/** Group (B) */}
+    <Vertical><Img src="images/web10.jpg" /></Vertical>
+    <Horizontal><Img src="images/web2.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web9.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web5.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web7.jpg" /></Horizontal>
+    {/** Group (A) */}
+    <HorizontalBig><Img src="images/web16.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web12.jpg" /></Horizontal>
+    <Vertical><Img src="images/web29.jpg" /></Vertical>
+    <Horizontal><Img src="images/web30.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web21.jpg" /></Horizontal>
+    {/** Group (B) */}
+    <Vertical><Img src="images/web19.jpg" /></Vertical>
+    <Horizontal><Img src="images/web17.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web31.jpg" /></Horizontal>
+    <HorizontalBig><Img src="images/web11.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web8.jpg" /></Horizontal>
   </Grid>
 )
 
