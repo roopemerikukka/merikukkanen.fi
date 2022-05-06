@@ -85,11 +85,11 @@ const PhotoGrid: React.FC = () => (
     <HorizontalBig><Img src="images/web52.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web51.jpg" /></Horizontal>
     {/** Group (A) */}
-    <HorizontalBig><Img src="images/web53.jpg" /></HorizontalBig>
+    <HorizontalBig><Img src="images/web56.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web54.jpg" /></Horizontal>
     <Vertical><Img src="images/web57.jpg" /></Vertical>
     <Horizontal><Img src="images/web55.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web56.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web53.jpg" /></Horizontal>
     {/** Group (B) */}
     <Vertical><Img src="images/web58.jpg" /></Vertical>
     <Horizontal><Img src="images/web59.jpg" /></Horizontal>
@@ -117,7 +117,7 @@ const PhotoGrid: React.FC = () => (
     {/** Group (B) */}
     <Vertical><Img src="images/web19.jpg" /></Vertical>
     <Horizontal><Img src="images/web17.jpg" /></Horizontal>
-    <Horizontal><Img src="images/web31.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web69.jpg" /></Horizontal>
     <HorizontalBig><Img src="images/web11.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web8.jpg" /></Horizontal>
   </Grid>
