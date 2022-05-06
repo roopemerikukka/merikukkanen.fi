@@ -80,6 +80,12 @@ const PhotoGrid: React.FC = () => (
     <Horizontal><Img src="images/web31.jpg" /></Horizontal>
     <HorizontalBig><Img src="images/web28.jpg" /></HorizontalBig>
     <Horizontal><Img src="images/web32.jpg" /></Horizontal>
+    {/** 5st Group (A) */}
+    <HorizontalBig><Img src="images/web33.jpg" /></HorizontalBig>
+    <Horizontal><Img src="images/web34.jpg" /></Horizontal>
+    <Vertical><Img src="images/web37.jpg" /></Vertical>
+    <Horizontal><Img src="images/web35.jpg" /></Horizontal>
+    <Horizontal><Img src="images/web36.jpg" /></Horizontal>
   </Grid>
 )
 
