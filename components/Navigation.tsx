@@ -42,10 +42,10 @@ const Link = styled(AnchorLink)`
 const Navigation = ({ open }) => (
   <Container className={open ? 'open' : null}>
     <NavList>
-      <NavItem><Link offset={50} href="#kuvat">📸 – Kuvat</Link></NavItem>
-      <NavItem><Link offset={50} href="#merikukkanen">👩🏼‍ – Merikukkanen</Link></NavItem>
-      <NavItem><Link offset={50} href="#hinnat">💰 – Hinnat</Link></NavItem>
-      <NavItem><Link offset={50} href="#ota-yhteytta">💌 – Ota yhteyttä</Link></NavItem>
+      <NavItem><Link offset={50} href="#kuvat">Kuvat</Link></NavItem>
+      <NavItem><Link offset={50} href="#merikukkanen">Salla Merikukka</Link></NavItem>
+      <NavItem><Link offset={50} href="#hinnat">Hinnat</Link></NavItem>
+      <NavItem><Link offset={50} href="#ota-yhteytta">Ota yhteyttä</Link></NavItem>
     </NavList>
   </Container>
 )

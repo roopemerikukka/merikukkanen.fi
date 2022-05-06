@@ -87,7 +87,7 @@ const Pricing: React.FC = () => (
           <Item>🕑 20 min kuvausaika</Item>
           <Item>✏️ Halutessasi koevedokset, joista käsiteltävät kuvat valitaan</Item>
           <Item>⭐️ 5 valmista loppukäsiteltyä kuvaa (väri ja mustavalkoinen)</Item>
-          <Item>💖 Kuvat toimitetaan sähköisesti Drive-kansiossa</Item>
+          <Item>💖 Kuvat toimitetaan sähköisesti</Item>
         </Details>
       </PricePack>
 
@@ -100,7 +100,7 @@ const Pricing: React.FC = () => (
           <Item>🕑 45 min kuvausaika</Item>
           <Item>✏️ Halutessasi koevedokset, joista käsiteltävät kuvat valitaan</Item>
           <Item>⭐️ 12 valmista loppukäsiteltyä kuvaa (väri ja mustavalkoinen)</Item>
-          <Item>💖 Kuvat toimitetaan sähköisesti Drive-kansiossa</Item>
+          <Item>💖 Kuvat toimitetaan sähköisesti</Item>
           <Item>👯 Voit jakaa yhden tai kahden kaverin kanssa</Item>
         </Details>
       </PricePack>
@@ -114,7 +114,7 @@ const Pricing: React.FC = () => (
           <Item>🕑 90 min kuvausaika</Item>
           <Item>✏️ Halutessasi koevedokset, joista käsiteltävät kuvat valitaan</Item>
           <Item>⭐️ 20 valmista loppukäsiteltyä kuvaa (väri ja mustavalkoinen)</Item>
-          <Item>💖 Kuvat toimitetaan sähköisesti Drive-kansiossa</Item>
+          <Item>💖 Kuvat toimitetaan sähköisesti</Item>
           <Item>👯 Voit jakaa yhden tai kahden kaverin kanssa</Item>
         </Details>
       </PricePack>

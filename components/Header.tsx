@@ -53,7 +53,7 @@ const Header: React.FC = () => {
     <Container>
       <img className="logo" src="images/logo.png" />
       <h1 className="title">Merikukkanen</h1>
-      <p className="description">Potrettikuvaaja Salla Merikukka</p>
+      <p className="description">Valokuvaaja Salla Merikukka</p>
       <Hamburger open={navOpen} handleClick={handleClick} />
       <Navigation open={navOpen} />
     </Container>

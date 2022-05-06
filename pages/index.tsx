@@ -47,7 +47,7 @@ const Home: React.FC = () => (
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#d7bebf" />
       <meta property="og:title" content="Merikukkanen" />
-      <meta property="og:description" content="Potrettikuvaaja Salla Merikukka, miljöökuvia Helsingissä." />
+      <meta property="og:description" content="Valokuvaaja Salla Merikukka, miljöökuvia Helsingissä." />
       <meta property="og:image" content="https://merikukkanen.fi/images/merikukkanen.jpg" />
       <meta property="og:url" content="https://merikukkanen.fi" />
       <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_CODE}`}></script>
