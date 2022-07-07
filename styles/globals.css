@@ -10,6 +10,9 @@
 }
 
 @layer components {
+  .markdown {
+    @apply max-w-[800px];
+  }
   .markdown h1 {
     @apply text-xl font-bold mb-2;
   }

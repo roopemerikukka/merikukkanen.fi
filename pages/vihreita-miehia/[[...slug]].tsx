@@ -57,6 +57,7 @@ function Page(props: Props) {
             </div>
             <div className="grow">
               <Slide {...config[slug]} content={content} />
+              <Navigation current={slug} />
             </div>
           </div>
         </div>
