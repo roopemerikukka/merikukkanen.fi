@@ -1,6 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import styled from 'styled-components'
 
 const Container = styled.nav`
   position: fixed;
@@ -38,8 +37,10 @@ const Link = styled(AnchorLink)`
   color: white;
   font-weight: 600;
 `
-
-const Navigation = ({ open }) => (
+type Props = {
+  open: boolean;
+}
+const Navigation = ({ open }: Props) => (
   <Container className={open ? 'open' : null}>
     <NavList>
       <NavItem><Link offset={50} href="#kuvat">Kuvat</Link></NavItem>
