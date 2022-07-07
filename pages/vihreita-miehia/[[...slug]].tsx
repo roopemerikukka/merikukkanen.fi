@@ -29,7 +29,7 @@ function Page(props: Props) {
         <meta name="description" content="Millainen on vihreä mies? Yhtä vastausta siihen ei ole. Vihreitä miehiä -valokuvateos on joukon vihreitä miehiä puheenvuoro tässä keskustelussa." />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content="Millainen on vihreä mies? Yhtä vastausta siihen ei ole. Vihreitä miehiä -valokuvateos on joukon vihreitä miehiä puheenvuoro tässä keskustelussa." />
-        <meta property="og:image" content={`https://merikukkanen.fi/exhibition/images/${imgSrc}`} />
+        <meta property="og:image" content={imgSrc} />
         <meta property="og:url" content={`https://merikukkanen.fi${asPath}`} />
       </Head>
       <main className="p-4 max-w-[1600px] m-auto min-h-screen relative flex">
