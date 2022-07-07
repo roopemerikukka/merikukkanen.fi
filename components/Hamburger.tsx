@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const BG_HEIGHT = 3
@@ -81,10 +80,15 @@ const Line = styled.div`
   }
 `
 
+type Props = {
+  open: boolean;
+  handleClick: () => void;
+}
+
 /**
  * Hamburger component.
  */
-const Hamburger = ({ handleClick, open }) => {
+const Hamburger = ({ handleClick, open }: Props) => {
 
   return (
     <Container>
