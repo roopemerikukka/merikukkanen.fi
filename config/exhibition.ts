@@ -1,3 +1,19 @@
+import { StaticImageData } from "next/image";
+import borje from "../public/exhibition/images/borje.jpg";
+import henri from "../public/exhibition/images/henri.jpg";
+import iiro from "../public/exhibition/images/iiro.jpg";
+import jami from "../public/exhibition/images/jami-mikko.jpg";
+import janne from "../public/exhibition/images/janne.jpg";
+import jesse from "../public/exhibition/images/jesse.jpg";
+import kalle from "../public/exhibition/images/kalle.jpg";
+import lauri from "../public/exhibition/images/lauri.jpg";
+import mikko from "../public/exhibition/images/mikko.jpg";
+import pekka from "../public/exhibition/images/pekka.jpg";
+import sameli from "../public/exhibition/images/sameli.jpg";
+import intro from "../public/exhibition/images/santeri-jussi-yrjo.jpg";
+import sauli from "../public/exhibition/images/sauli.jpg";
+import vp from "../public/exhibition/images/vesa-pekka.jpg";
+
 export const slugs = [
   "intro",
   "borje",
@@ -20,7 +36,7 @@ export type Slug = typeof slugs[number];
 
 export type SlideDetails = {
   title: string;
-  imgName: string;
+  image: StaticImageData;
   mdFile: string;
 };
 
@@ -29,77 +45,77 @@ export type SlugsConfig = Record<Slug, SlideDetails>;
 export const config: SlugsConfig = {
   intro: {
     title: "Intro",
-    imgName: "santeri-jussi-yrjo.jpg",
+    image: intro,
     mdFile: "intro.md",
   },
   borje: {
     title: "Börje",
-    imgName: "borje.jpg",
+    image: borje,
     mdFile: "borje.md",
   },
   sameli: {
     title: "Sameli",
-    imgName: "sameli.jpg",
+    image: sameli,
     mdFile: "sameli.md",
   },
   henri: {
     title: "Henri",
-    imgName: "henri.jpg",
+    image: henri,
     mdFile: "henri.md",
   },
   iiro: {
     title: "Iiro",
-    imgName: "iiro.jpg",
+    image: iiro,
     mdFile: "iiro.md",
   },
   "jami-mikko": {
     title: "Jami ja Mikko",
-    imgName: "jami-mikko.jpg",
+    image: jami,
     mdFile: "jami-mikko.md",
   },
   janne: {
     title: "Janne",
-    imgName: "janne.jpg",
+    image: janne,
     mdFile: "janne.md",
   },
   kalle: {
     title: "Kalle",
-    imgName: "kalle.jpg",
+    image: kalle,
     mdFile: "kalle.md",
   },
   lauri: {
     title: "Lauri",
-    imgName: "lauri.jpg",
+    image: lauri,
     mdFile: "lauri.md",
   },
   mikko: {
     title: "Mikko",
-    imgName: "mikko.jpg",
+    image: mikko,
     mdFile: "mikko.md",
   },
   pekka: {
     title: "Pekka",
-    imgName: "pekka.jpg",
+    image: pekka,
     mdFile: "pekka.md",
   },
   "santeri-jussi-yrjo": {
     title: "Santeri, Jussi ja Yrjö",
-    imgName: "santeri-jussi-yrjo.jpg",
+    image: intro,
     mdFile: "santeri-jussi-yrjo.md",
   },
   sauli: {
     title: "Sauli",
-    imgName: "sauli.jpg",
+    image: sauli,
     mdFile: "sauli.md",
   },
   "vesa-pekka": {
     title: "Vesa-Pekka",
-    imgName: "vesa-pekka.jpg",
+    image: vp,
     mdFile: "vesa-pekka.md",
   },
   jesse: {
     title: "Jesse",
-    imgName: "jesse.jpg",
+    image: jesse,
     mdFile: "jesse.md",
   },
 };

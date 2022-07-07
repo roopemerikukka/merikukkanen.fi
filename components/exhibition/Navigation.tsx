@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { config, Slug } from "../../config/exhibition";
+import { Slug, slugs } from "../../config/exhibition";
 
 type Props = {
   current: Slug;
@@ -7,7 +7,6 @@ type Props = {
 
 const Navigation = (props: Props) => {
   const { current } = props;
-  const slugs = Object.keys(config)
   const currentIndex = slugs.indexOf(current)
   const lastIndex = slugs.length - 1
   const next = currentIndex === lastIndex ? slugs[0] : slugs[currentIndex + 1]

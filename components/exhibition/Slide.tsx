@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { useEffect, useState } from "react";
 import { SlideDetails } from "../../config/exhibition";
 
 type Props = SlideDetails & {
@@ -5,10 +7,29 @@ type Props = SlideDetails & {
 }
 
 const Slide = (props: Props) => {
-  const { imgName, content, title } = props;
+  const { image, content, title } = props;
+  const [isSmall, setIsSmall] = useState(false)
 
-  return (<div className="relative">
-    <img src={`/exhibition/images/${imgName}`} className="object-contain max-h-[80vh] mb-4" alt={title} />
+  useEffect(() => {
+    const handler = () => {
+      setIsSmall(window.matchMedia("(max-width: 1024px)").matches)
+    }
+    window.addEventListener("resize", handler)
+    handler();
+    return () => window.removeEventListener("resize", handler)
+  }, [])
+
+  return (<div className="relative block">
+    {!isSmall && (
+      <div className="block relative lg:h-[80vh] mb-4">
+        <Image src={image} layout="fill" quality={100} alt={title} className="object-contain object-left" />
+      </div>
+    )}
+    {isSmall && (
+      <div className="mb-4">
+        <Image src={image} layout="responsive" quality={100} alt={title} />
+      </div>
+    )}
     <div
       className="markdown"
       dangerouslySetInnerHTML={{ __html: content }} />
