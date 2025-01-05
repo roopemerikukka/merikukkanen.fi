@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionTitle from './SectionTitle'
 import styled from 'styled-components'
+import SectionTitle from './SectionTitle'
 
 const Figure = styled.figure`
   width: 100%;
@@ -33,12 +33,10 @@ const About: React.FC = () => (
     <p>Erityinen mielenkiinnonkohteeni on poliittiset valokuvat. Työstinkin ensimmäisen valokuvanäyttelyni Vihreitä miehiä keväällä 2022 yhteistyössä Vihreän Sivistysliiton kanssa.</p>
 
     <p>Kaipaatko laadukkaita potretteja tai kokonaisen kuvituskuvapankin? Haluatko työskennellä kuvaajan kanssa, joka osaa tehdä kuvauksista rennot myös pahimmalle jännittäjälle? Saatan olla etsimäsi henkilö! Kurkkaa hinnat tai pyydä tarjousta.</p>
-    <p>
-      <Figure>
-        <img src="images/salla2.jpg" alt="Salla Merikukka" />
-        <figcaption>Kuva: Roope Merikukka, editointi: Salla Merikukka</figcaption>
-      </Figure>
-    </p>
+    <Figure>
+      <img src="images/salla2.jpg" alt="Salla Merikukka" />
+      <figcaption>Kuva: Roope Merikukka, editointi: Salla Merikukka</figcaption>
+    </Figure>
   </React.Fragment>
 )
 

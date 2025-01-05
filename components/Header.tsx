@@ -1,7 +1,9 @@
-import styled from "styled-components"
+import dynamic from "next/dynamic"
 import { useState } from "react"
-import Hamburger from "./Hamburger"
-import Navigation from "./Navigation"
+import styled from "styled-components"
+
+const Hamburger = dynamic(() => import('./Hamburger'), { ssr: false })
+const Navigation = dynamic(() => import('./Navigation'), { ssr: false })
 
 const Container = styled.header`
   .logo {
@@ -45,7 +47,7 @@ const Container = styled.header`
 `
 
 const Header: React.FC = () => {
-  const [ navOpen, toggleNav ] = useState(false)
+  const [navOpen, toggleNav] = useState(false)
 
   const handleClick = () => toggleNav(!navOpen)
 
