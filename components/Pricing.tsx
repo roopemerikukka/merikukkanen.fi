@@ -57,6 +57,7 @@ const Description = styled.p`
 `
 
 const Details = styled.ul`
+  list-style: initial;
   margin-left: 1rem;
 `
 
