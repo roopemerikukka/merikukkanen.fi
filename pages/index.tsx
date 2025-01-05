@@ -30,13 +30,10 @@ const Footer = styled.footer`
   background-color: rgba(215, 190, 191, 1);
 `
 
-const GA_CODE = 'UA-100471655-1'
-
 const Home: React.FC = () => (
   <Container>
     <Head>
       <title>Merikukkanen</title>
-      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet"></link>
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
@@ -50,13 +47,6 @@ const Home: React.FC = () => (
       <meta property="og:description" content="Valokuvaaja Salla Merikukka, miljöökuvia Helsingissä." />
       <meta property="og:image" content="https://merikukkanen.fi/images/merikukkanen.jpg" />
       <meta property="og:url" content="https://merikukkanen.fi" />
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_CODE}`}></script>
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${GA_CODE}');
-      `}} />
     </Head>
 
     <Main>
