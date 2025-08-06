@@ -1,9 +1,9 @@
 {
   "name": "merikukkanen.fi",
-  "version": "1.5.0",
+  "version": "1.7.0",
   "private": true,
   "engines": {
-    "node": "18"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.0.1",
-    "next": "^14.2.21",
+    "next": "^14.2.30",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
